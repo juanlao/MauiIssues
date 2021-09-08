@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FlyoutDoNotRender.WinUI": {
+      "commandName": "MsixPackage",
+      "nativeDebugging": false
+    }
+  }
+}

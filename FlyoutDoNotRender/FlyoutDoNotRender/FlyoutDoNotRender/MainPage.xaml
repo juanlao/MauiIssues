@@ -1,0 +1,17 @@
+<FlyoutPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FlyoutDoNotRender.MainPage"
+            xmlns:local="clr-namespace:FlyoutDoNotRender"
+             BackgroundColor="{DynamicResource PageBackgroundColor}">
+    <FlyoutPage.Flyout>
+        <local:MenuPage/>
+    </FlyoutPage.Flyout>
+    
+    <FlyoutPage.Detail>
+        <NavigationPage>
+            <x:Arguments>
+                <local:DetailPage/>
+            </x:Arguments>
+        </NavigationPage>
+    </FlyoutPage.Detail>
+</FlyoutPage>
