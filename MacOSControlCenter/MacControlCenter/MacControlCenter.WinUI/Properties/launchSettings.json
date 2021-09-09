@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MacControlCenter.WinUI": {
+      "commandName": "MsixPackage",
+      "nativeDebugging": false
+    }
+  }
+}
