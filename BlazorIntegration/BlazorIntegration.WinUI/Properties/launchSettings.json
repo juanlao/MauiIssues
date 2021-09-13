@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "BlazorIntegration.WinUI": {
+      "commandName": "MsixPackage",
+      "nativeDebugging": false
+    }
+  }
+}
